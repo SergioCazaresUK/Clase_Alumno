@@ -15,8 +15,16 @@ alumno2.ApellidoPaterno = "Arambula";
 alumno2.Matricula = "124";
 alumno2.FechaNacimiento = new DateTime(1999, 08, 27);
 
+Alumno alumno3 = new Alumno();
+alumno3.Nombres = "Jose";
+alumno3.ApellidoPaterno = "Gutierrez";
+alumno3.ApellidoMaterno = "Ruiz";
+alumno3.Matricula = "451";
+alumno3.FechaNacimiento = new DateTime(2001, 11, 30);
+
 lista.Add(alumno1);
 lista.Add(alumno2);
+lista.Add(alumno3);
 
 foreach (Alumno alumnoEnLista in lista)
 {
