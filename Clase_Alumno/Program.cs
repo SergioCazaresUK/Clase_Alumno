@@ -3,10 +3,10 @@
 List<Alumno> lista = new List<Alumno>();
 
 Alumno alumno1 = new Alumno();
-alumno1.Nombres = "Antonio";
-alumno1.ApellidoPaterno = "Rogel";
-alumno1.Matricula = "123";
-alumno1.FechaNacimiento = DateTime.Now;
+alumno1.Nombres = "Sergio";
+alumno1.ApellidoPaterno = "Cazares";
+alumno1.Matricula = "634";
+alumno1.FechaNacimiento = new DateTime(2003 ,10 ,02);
 
 
 Alumno alumno2 = new Alumno();
