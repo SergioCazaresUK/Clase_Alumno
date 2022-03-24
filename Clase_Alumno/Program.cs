@@ -10,10 +10,10 @@ alumno1.FechaNacimiento = new DateTime(2003 ,10 ,02);
 
 
 Alumno alumno2 = new Alumno();
-alumno2.Nombres = "Juan";
-alumno2.ApellidoPaterno = "Lopez";
-alumno2.Matricula = "456";
-alumno2.FechaNacimiento = new DateTime(1980, 02, 28);
+alumno2.Nombres = "Ramon";
+alumno2.ApellidoPaterno = "Arambula";
+alumno2.Matricula = "124";
+alumno2.FechaNacimiento = new DateTime(1999, 08, 27);
 
 lista.Add(alumno1);
 lista.Add(alumno2);
